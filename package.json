@@ -4,6 +4,7 @@
   "private": true,
   "author": "Kaito Udagawa <umireon@gmail.com>",
   "description": "A simple helpful robot for your Company",
+  "license": "MIT",
   "scripts": {
     "start": "hubot -a hipchat",
     "test": "mocha --compilers coffee:coffee-script/register"
