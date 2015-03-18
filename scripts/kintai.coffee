@@ -23,7 +23,7 @@ module.exports = (robot) ->
     else
       msg.reply "#{kintaiId}\r\nなんにもないよー"
 
-  robot.respond /(.*(?:出勤|退勤))/i, (msg) ->
+  robot.respond /(.*(?:出勤|退勤).*)/i, (msg) ->
     user = msg.message.user.name
     date = moment()
     remarks = msg.match[1]
